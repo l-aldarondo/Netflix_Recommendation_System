@@ -23,7 +23,7 @@ This project consists of two technical analysis deliverables and a written repor
 
 Netflix is a subscription-based streaming platform that allows users to watch movies and TV shows without advertisements. One of the reasons behind the popularity of Netflix is its recommendation system. Its recommendation system recommends movies and TV shows based on the user’s interest. 
 
-In this project, we will choose one Netflix dataset, then we will use Python to perform the ETL process to extract the dataset, transform the data, load the transformed data into pgAdmin. Then, use Python Scikit-learn machine learning library, Natural Language Toolkit and Cosine similarity to build a Netflix Recommendation System.
+In this project, we will choose one Netflix dataset, then we will use Python to perform the ETL process to extract the dataset, transform the data, and load the transformed data into pgAdmin. Then, we will use Python Scikit-learn machine learning library, Natural Language Toolkit and Cosine similarity to build a Netflix Recommendation System.
 
 ## Resources
 
