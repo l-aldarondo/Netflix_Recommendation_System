@@ -1,6 +1,11 @@
 # Netflix_Recommendation_System
 Build a Netflix recommendation system using Python Scikit-learn machine learning library.
 
+![Netflix_recommendation_system](./Images/Netflix-Recommendation-Engine-Working-StartupTalky.jpg)
+
+<sub>[Image source](https://static.startuptalky.com/2021/12/Netflix-Recommendation-Engine-Working-StartupTalky.jpg)
+
+
 ## Background
 
 ### Overview of Analysis
@@ -45,7 +50,7 @@ We chose a [Netflix dataset](https://www.kaggle.com/datasets/satpreetmakhija/net
 
 1. Now let’s import the necessary Python libraries and the dataset we need for this task:
 
-(ba![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/Netflix_Data_df.png)
  
 <sub> Figure (a) The customers_table DataFrame
 
@@ -53,57 +58,57 @@ We chose a [Netflix dataset](https://www.kaggle.com/datasets/satpreetmakhija/net
 
 2. look at whether the data contains null values or not:
 
-(b)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/Check_null_values.png)
  
-<sub> Figure (b) The customers_table DataFrame
+<sub> Figure (b) Check_null_values
 
 <br/>
 
 3. let’s select the columns that we can use to build a Netflix recommendation system:
 
-(c)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/columns%20_that_be_use_NRS.png)
  
-<sub> Figure (c) The customers_table DataFrame
+<sub> Figure (c) The columns that we can use to build a Netflix recommendation system.
 
 <br/>
 
 4. Now let’s drop the rows containing null values using dropna() function.
 
-(d)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/drop_nan.png)
  
-<sub> Figure (d) The customers_table DataFrame
+<sub> Figure (d) Dropping null values.
 
 <br/>
 
 5. Now I will clean the Title column as it contains some data preparation using NTLK library:
 
-(e)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/clean_title_column.png)
  
-<sub> Figure (e) The customers_table DataFrame
+<sub> Figure (e) clean the title column.
 
 <br/>
 
 6. let’s have a look at some samples of the Titles:
 
-(f)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/some_sample_tiltes.png)
  
-<sub> Figure (f) The customers_table DataFrame
+<sub> Figure (f) Some sample titles
 
 <br/>
 
 7. use the Genres column as the feature to recommend similar content to the user. I will use the concept of cosine similarity:
 
-(g)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/genere_as_feature.png)
  
-<sub> Figure (g) The customers_table DataFrame
+<sub> Figure (g) Used generes column as a feature.
 
 <br/>
 
 8. set the Title column as an index so that we can find similar content by giving the title of the movie or TV show as an input:
 
-(h)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/set_title_column_index.png)
  
-<sub> Figure (h) The customers_table DataFrame
+<sub> Figure (h) Set title column index
 
 <br/>
 
@@ -113,9 +118,9 @@ We chose a [Netflix dataset](https://www.kaggle.com/datasets/satpreetmakhija/net
 To create the products_table, we used the select() function to select the product_id and product_title, then droped duplicates with the drop_duplicates() function to retrieve only unique product_ids.
 
 
-(c)![product_id_table](./Images/product_id_table.png)
+![product_id_table](./Images/product_id_table.png)
  
-<sub> Figure (c) The final products_table DataFrame
+<sub> Figure (i) product_id_table
 
 <br/>
 
@@ -124,38 +129,19 @@ To create the products_table, we used the select() function to select the produc
 To create the review_id_table, we used the select() function to select the columns that are in the review_id_table in pgAdmin and convert the review_date column to a date.
 
 
-(d)![review_id_table](./Images/review_id_table.png)
- 
-<sub> Figure (d) The final review_id_table DataFrame
-
-<br/>
-
 ### The vine_table DataFrame:
 
 To create the vine_table, we used the select() function to select only the columns that are in the vine_table in pgAdmin
-
-
-(e)![vine_table](./Images/vine_table.png)
- 
-<sub> Figure (e) The final vine_table DataFrame
-
-<br/>
 
 ### D2:Determine Bias of Vine Reviews
 
 1. write a function to recommend Movies and TV shows on Netflix:
 
-(i)![customer_id_table](./Images/customer_id_table.png)
+![customer_id_table](./Images/function_to_recommend_movies_tv.png)
  
-<sub> Figure (i) The customers_table DataFrame
+<sub> Figure (j) Function to recommend ovies tv.
 
 <br/>
-
-
-## Results:
-
-
-
 
 
 ## Summary
