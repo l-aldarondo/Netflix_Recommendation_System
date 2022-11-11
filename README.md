@@ -8,7 +8,7 @@ Build a Netflix recommendation system using Python Scikit-learn machine learning
 
 ## Background
 
-### Overview of Analysis
+## Overview of Analysis
 
 This project consists of two technical analysis deliverables and a written report:
 
