@@ -37,7 +37,7 @@ Software:
  
 <br/>
 
-## Methodology
+## Methodology:
 
 ### D1: Perform ETL on Amazon Product Reviews
 
