@@ -157,7 +157,7 @@ The recommendation system of Netflix predicts a personalised catalogue for you b
 
 [Starter_code](https://thecleverprogrammer.com/2022/07/05/netflix-recommendation-system-using-python/)
 
-[Cosine Similarity in ML](https://thecleverprogrammer.com/2021/02/27/cosine-similarity-in-machine-learning/)
+[Cosine_Similarity in ML](https://thecleverprogrammer.com/2021/02/27/cosine-similarity-in-machine-learning/)
  
-[Google Colab](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.01-Help-And-Documentation.ipynb)
+[Google_Colab](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/01.01-Help-And-Documentation.ipynb)
 
